@@ -1,0 +1,250 @@
+:root {
+  --accent-color: #ff6c00;
+  --white-color: #ffffff;
+  --primary-color: #303030;
+  --secondary-color: #9da4bd;
+  --text-color: #555555;
+}
+body {
+  background-color: burlywood;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 1.2px;
+}
+
+.title {
+  color: var(--primary-color);
+  font-family: "Raleway", sans-serif;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2.1px;
+}
+
+.btn {
+  background-color: transparent;
+}
+
+.btn:hover,
+.btn:focus {
+  background-color: var(--accent-color);
+}
+/* 
+rgba(157, 164, 189, 0.60) 
+ */
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* HEADER */
+
+.header-item-link {
+  color: var(--white-color);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.tell {
+  color: var(--white-color);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.btn {
+  color: var(--white-color);
+  font-size: 12px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.08px;
+}
+
+.header-item-link:hover,
+.header-item-link:focus {
+  color: var(--accent-color);
+}
+
+/* ABOUT */
+
+.about-about {
+  color: rgba(157, 164, 189, 0.6);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.about-pre-title {
+  color: var(--secondary-color);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.66;
+  letter-spacing: 0.36px;
+}
+
+.about-text {
+  color: var(--secondary-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.85;
+  letter-spacing: 0.28px;
+}
+
+/* PRICE */
+
+.price-title {
+  color: var(--white-color);
+}
+
+.price-text {
+  color: rgba(157, 164, 189, 0.6);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.price-item > p {
+  color: var(--secondary-color);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.66;
+  letter-spacing: 0.36px;
+}
+
+/* PREFERENCE */
+
+.preference-item-number {
+  color: var(--primary-color);
+  font-size: 42px;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.preference-item-text {
+  color: var(--primary-color);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.preference-description {
+  color: var(--primary-color);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.66;
+  letter-spacing: 0.36px;
+}
+
+.preference-text {
+  color: var(--text-color);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/* BARBERS */
+
+.barbers-text {
+  color: var(--primary-color);
+
+  font-size: 11px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.barbers-item-name {
+  color: var(--primary-color);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.36px;
+}
+
+.barbers-item-title {
+  color: var(--accent-color);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.28px;
+}
+
+/* WORK */
+
+.work-text {
+  color: var(--primary-color);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/* ADDRESS */
+
+.contact-title {
+  color: var(--white-color);
+}
+
+.address-map {
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.66;
+  letter-spacing: 0.36px;
+  font-style: normal;
+}
+
+.address-item-tell {
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.66;
+  letter-spacing: 0.36px;
+  font-style: normal;
+}
+
+.address-item-mail {
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.66;
+  letter-spacing: 0.36px;
+  font-style: normal;
+  text-decoration-line: underline;
+}
+
+.address-pre-title {
+  color: var(--white-color);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.address-text {
+  color: var(--text-color);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.66;
+  letter-spacing: 0.36px;
+}
+
+/* FOOTER */
+
+.footer-text {
+  color: var(--text-color);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2.2px;
+}
+
+.footer-item-link {
+  color: var(--primary-color);
+  font-size: 11px;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 2.2px;
+}
